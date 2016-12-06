@@ -7,7 +7,7 @@ const Home = React.createClass({
     return (
 
       <div className="pa3 pa5-ns">
-      <h1 className="tc mt2 mb0 baskerville i fw1 f1">Welcome to Chris Cleans 4u!</h1>
+      <h1 className="tc mt2 mb0 baskerville i fw1 f1">Chris Cleans 4u!</h1>
         <h2 className="tc mt2 mb0 f6 fw4 ttu tracked">Let Chris do the cleaning for you!</h2>
         <nav className="bt bb tc mw7 center mt4">
         <a className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" href="/chriscortes4u">Home</a>
@@ -17,6 +17,9 @@ const Home = React.createClass({
         <a className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" href="/contact">Contact</a>
         <a className="f6 f5-l link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l" href="/signin">Sign In</a>
       </nav>
+      <div content="inital-scale=1.0, width=device-width" className="tc pl2">
+        <img src="/static/cleanP.jpg" />
+      </div>
       </div>
 
     )
